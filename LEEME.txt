@@ -1,0 +1,6 @@
+AUTOCARE - quick start
+1. Copy this folder ("autocare") into C:\xampp\htdocs\
+2. Start Apache and MySQL from the XAMPP Control Panel.
+3. Open http://localhost/phpmyadmin -> Import -> choose sql/autocare_db.sql -> Import.
+4. Open http://localhost/autocare/
+Admin: admin@autocare.com / Admin123*   (admin panel: http://localhost/autocare/admin/dashboard.php)
