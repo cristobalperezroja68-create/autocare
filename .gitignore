@@ -1,0 +1,10 @@
+# Imágenes subidas desde el panel (se conserva la carpeta con .gitkeep)
+assets/img/productos/*
+!assets/img/productos/.gitkeep
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+hash.php
