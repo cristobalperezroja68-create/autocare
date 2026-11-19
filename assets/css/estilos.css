@@ -1,0 +1,24 @@
+:root{--bg:#0b0b0f;--surface:#15151b;--surface2:#1d1d26;--line:#2a2a35;--accent:#7c4dff;--accent2:#3d8bfd}
+[data-bs-theme=dark]{--bs-body-bg:var(--bg);--bs-body-color:#f1f1f5;--bs-border-color:var(--line)}
+body{background:var(--bg);font-family:'Segoe UI',system-ui,-apple-system,sans-serif}
+a{color:var(--accent2);text-decoration:none}a:hover{color:#8fb8ff}
+.text-accent{color:var(--accent)!important}.price{color:#b9a2ff}
+.navbar{background:rgba(11,11,15,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.navbar .nav-link{color:#cfcfd8}.navbar .nav-link:hover,.navbar .nav-link.active{color:var(--accent2)}
+.btn-accent{background:linear-gradient(135deg,var(--accent),var(--accent2));border:0;color:#fff;font-weight:600}
+.btn-accent:hover,.btn-accent:focus{filter:brightness(1.15);color:#fff}
+.btn-outline-accent{border:1px solid var(--accent2);color:#fff}.btn-outline-accent:hover{background:var(--accent2);color:#fff}
+.hero{padding:5rem 0;background:radial-gradient(circle at 80% 20%,rgba(124,77,255,.25),transparent 45%),radial-gradient(circle at 10% 90%,rgba(61,139,253,.18),transparent 40%),#0b0b0f;border-bottom:1px solid var(--line)}
+.page-head{padding:2.5rem 0;background:linear-gradient(135deg,#15151b,#1d1630);border-bottom:1px solid var(--line)}
+.section-title{font-weight:700;margin-bottom:1.5rem;position:relative;padding-bottom:.6rem}
+.section-title::after{content:"";position:absolute;left:0;bottom:0;width:60px;height:4px;border-radius:4px;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px}
+.product-card{transition:transform .2s,border-color .2s}.product-card:hover{transform:translateY(-4px);border-color:var(--accent)}
+.product-card .card-img-top{height:190px;object-fit:cover;background:#101015;border-radius:14px 14px 0 0}
+.badge-cat{background:rgba(124,77,255,.18);color:#c8b6ff;font-weight:500}
+.price-card .card-header{background:var(--surface2);border-radius:14px 14px 0 0}
+.paquete{background:var(--surface2);border:1px solid var(--line);border-radius:12px}
+.site-footer{background:#08080b;border-top:1px solid var(--line)}.site-footer a{color:#cfcfd8}.site-footer a:hover{color:var(--accent2)}
+.form-control,.form-select{background-color:#101015;border-color:var(--line)}
+.form-control:focus,.form-select:focus{border-color:var(--accent);box-shadow:0 0 0 .2rem rgba(124,77,255,.25)}
+.modal-content{background:var(--surface);border:1px solid var(--line)}
